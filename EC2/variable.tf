@@ -3,10 +3,10 @@ variable "myamiid" {
   type        = string
   default     = "d8ef1"
 }
-variable "key-name" {
+variable "key_name" {
   description = "giving the key name"
   type        = string
-  default     = "eks"
+  default     = "key"
 }
 variable "myinstype" {
   description = "passing the instance type"
